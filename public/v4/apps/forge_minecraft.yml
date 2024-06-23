@@ -45,15 +45,15 @@ caproverOneClickApp:
         - id: $$java_version
           label: Java version
           description: 'Chose the Java version to run the server with. Look in the documentation for different versions: https://github.com/itzg/docker-minecraft-server#running-minecraft-server-on-different-java-version'
-          validRegex: /^(latest|java8|java8-jdk|java8-multiarch|java8-openj9|java8-graalvm-ce|java11|java11-jdk|java11-openj9|java17|java17-jdk|java17-openj9|java17-graalvm-ce|java17-alpine|java20)$/
+          validRegex: /^(latest|java8|java8-jdk|java8-multiarch|java8-openj9|java8-graalvm-ce|java11|java11-jdk|java11-openj9|java17|java17-jdk|java17-openj9|java17-graalvm-ce|java17-alpine|java20|java21)$/
           defaultValue: java20
         - id: $$cap_minecraft_version
           label: Minecraft version
-          defaultValue: 1.20.1
+          defaultValue: 1.21
         - id: $$cap_forge_version
           label: forge server version
           description: 'Choose the version that works with your mc version , see: https://files.minecraftforge.net/'
-          defaultValue: 47.0.46
+          defaultValue: 50.1.7
         - id: $$server_type
           label: Server type
           description: 'Chose one of the server types from supported ones: https://github.com/itzg/docker-minecraft-server#server-types'
